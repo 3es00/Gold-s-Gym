@@ -1,0 +1,204 @@
+.navbar{
+    border-bottom: 4px solid #A3573D
+}
+header{
+    min-height: 100vh;
+    background:  linear-gradient(rgba(0,0,0,.7) , rgba(0,0,0,.7)) , url(../images/lossy-page1-1280px-Golds_Gym_North_Round_Rock.tif.jpg);
+    background-position: center;
+    background-size: cover;
+    /* padding-top: 150px; */
+} 
+  
+label {
+
+    margin-bottom: 4px;
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+
+input[type=text],
+input[type=email],
+select {
+    width: 100%;
+    margin-bottom: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: solid 1px #ccc;
+    caret-color: #A3573D;
+}
+
+input[type=checkbox] {
+    margin: 10px 15px;
+}
+
+textarea {
+    width: 100%;
+    caret-color: #A3573D;
+    border-radius: 20px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.714);
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    width: 30%;
+    border: 2px solid #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: orange;
+}
+.hero {
+    position: absolute;
+    top: 40%;
+
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.btn {
+    border: solid 1px orange;
+    margin-right: 15px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: orange;
+    border-radius: 10px 30px 10px 30px;
+
+}
+
+section {
+    padding: 40px 0px;
+}
+.meal {
+    padding: 0px;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img {
+    width: 100%;
+    opacity: .6;
+    transform: scale(2);
+
+}
+
+.meal img:hover {
+    opacity: 1;
+    transition: 2s;
+    transform: scale(1);
+}
+
+.app-img img{
+    width: 40%;
+    margin-left: 300px;
+}
+
+.right-text ul{
+    list-style-type: none;
+
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+.img1-download{
+    width: 110px;
+}
+.span1{
+    border: 2px solid orange;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    color: orange;
+}
+
+.img1-download{
+    width: 110px;
+}
+.span1{
+    border: 2px solid orange;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    color: orange;
+}
+
+.city img{
+    width: 100%;
+}
+
+.city-info{
+    margin-bottom: 10px;
+}
+
+.city-info i{
+    color: orange;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.714);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p {
+    text-align: center;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+.foot-nav,
+.foot-social {
+    display: flex;
+    list-style: none;
+}
+
+.foot-nav li,
+.foot-social i {
+    margin-right: 20px;
+    color: #ddd;
+}
+
+.foot-nav li a {
+    text-decoration: none;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+.foot-social {
+    float: right;
+}
+
+.foot-nav li a:hover,
+.foot-social i:hover {
+    text-decoration: underline;
+    color: rgb(189, 101, 0);
+}
